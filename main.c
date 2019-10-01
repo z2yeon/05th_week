@@ -10,9 +10,9 @@ int main(int argc, char *argv[]) {
 	scanf("%d",&input);
 	
 	if (input>0)
-		printf("positive\n");
-	else
-	    printf("non-positive\n");
+     printf("|x|=%d\n",input);
+    else
+     printf("|x|=%d\n",-input);
 	
 	return 0;
 }
